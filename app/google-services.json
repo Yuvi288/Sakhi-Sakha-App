@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79362687016",
+    "project_id": "sass-55fe4",
+    "storage_bucket": "sass-55fe4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79362687016:android:f719c5a5c11a877d00f51d",
+        "android_client_info": {
+          "package_name": "com.example.sas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqpUzUg8JoCk021yIZGwUzHpUTLu7Yt_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
