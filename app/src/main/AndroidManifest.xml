@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ss"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sas"
+        tools:targetApi="31">
+        <activity
+            android:name=".PaymentImageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".AdminViewAppointmentsActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.firebase.firestore"
+            android:value="true" />
+
+        <activity
+            android:name=".ViewAppointmentsActivity"
+            android:parentActivityName=".MainActivity" /> <!-- Ensure correct parent -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageStaff"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".MaleServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentsDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".academy"
+            android:exported="false" />
+        <activity
+            android:name=".ManageAppointmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageServicesActivity"
+            android:exported="false" /> <!-- Main Activity: Entry point of the app -->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" /> <!-- Registration Activity -->
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

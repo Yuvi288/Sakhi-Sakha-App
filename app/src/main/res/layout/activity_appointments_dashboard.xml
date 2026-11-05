@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentsDashboardActivity"
+    android:background="@drawable/lbg">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointments"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintTop_toBottomOf="@id/titleText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.3">
+
+        <!-- New Appointment Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/newAppointmentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Appointment"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:paddingVertical="12dp"
+            app:cornerRadius="12dp"
+            app:backgroundTint="#3F51B5"
+            app:icon="@drawable/ic_add"
+            app:iconPadding="8dp"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/white"
+            android:layout_marginBottom="24dp"
+            android:elevation="4dp"/>
+
+        <!-- View Appointments Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewAppointmentsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Appointments"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:paddingVertical="12dp"
+            app:cornerRadius="12dp"
+            app:backgroundTint="#FF5722"
+            app:iconPadding="8dp"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/white"
+            android:elevation="4dp"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

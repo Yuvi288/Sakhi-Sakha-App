@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="primary">#6200EE</color>
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondary">#03DAC5</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_dark">#121212</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Accent & Special Colors -->
+
+
+
+    <!-- CardView Colors -->
+    <color name="card_background">#FAFAFA</color>
+    <color name="card_elevation">#E0E0E0</color>
+
+    <!-- Floating Action Button -->
+    <color name="fab_color">#FF5722</color>
+
+    <!-- Transparent Overlay -->
+    <color name="transparent_black">#80000000</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_red">#D32F2F</color>
+    <color name="green">#4CAF50</color> <!-- Green color -->
+    <color name="red">#F44336</color> <!-- Red color -->
+
+    <!-- Chip Colors -->
+    <color name="chip_background">#EEEEEE</color>
+    <color name="chip_stroke_selector">#BDBDBD</color>
+    <color name="chip_icon_selector">#616161</color>
+    <color name="gold">#FFD700</color>
+    <color name="accent">#FF4081</color>
+    <color name="chip_background_selector">#EEEEEE</color>
+    <color name="white_80">#CCFFFFFF</color> <!-- 80% opacity white -->
+    <color name="white_60">#99FFFFFF</color> <!-- 60% opacity white -->
+    <color name="white_20">#33FFFFFF</color> <!-- 20% opacity white -->
+    <color name="accent_color">#FF4081</color> <!-- Example accent color -->
+    <color name="grey">#9E9E9E</color>
+
+
+
+
+    <!-- Primary Colors -->
+    <color name="primaryColor">#3F51B5</color>
+    <color name="primaryDarkColor">#303F9F</color>
+    <color name="accentColor">#FF4081</color>
+
+    <!-- Text Colors -->
+
+    <color name="dark_gray">#757575</color>
+
+    <!-- Appointment Status Colors -->
+    <color name="statusPending">#FFA500</color>  <!-- Orange for pending -->
+    <color name="statusApproved">#008000</color>  <!-- Green for approved -->
+    <color name="statusRejected">#D32F2F</color>  <!-- Red for rejected -->
+
+    <!-- Background Colors -->
+    <color name="backgroundLight">#F5F5F5</color>
+    <color name="backgroundDark">#E0E0E0</color>
+
+    <color name="orange">#FF9800</color>
+
+
+</resources>
